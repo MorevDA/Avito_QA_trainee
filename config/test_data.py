@@ -1,4 +1,3 @@
-
 class CreateAdvertisement:
     FIELDS = {'name', 'price', 'description', 'imageUrl'}
     VALUES = {'name': 'Стол Ikea', 'price': '1000', 'description': 'Стол Ikea в отличном состоянии',
@@ -7,5 +6,5 @@ class CreateAdvertisement:
 
 class ChangeAdvertisement:
     FIELDS = {'name', 'price', 'description', 'imageUrl'}
-    VALUES = {'name': 'Стул Ikea', 'price': '800', 'description': 'Стул Ikea в отличном состоянии',
-              'imageUrl': 'https://cdn1.ozone.ru/s3/multimedia-u/6836858562.jpg'}
+    CHANGES_VALUES = {'name': 'Стул Ikea', 'price': '800', 'description': 'Стул Ikea в отличном состоянии',
+                      'imageUrl': 'https://cdn1.ozone.ru/s3/multimedia-u/6836858562.jpg'}
