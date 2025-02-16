@@ -8,9 +8,6 @@ from config.test_data import CreateAdvertisement
 
 
 class TestCreateAdvertisement:
-    # fields = {'name', 'price', 'description', 'imageUrl'}
-    # values = {'name': 'Название1000', 'price': '100',
-    #           'description': 'Описание', 'imageUrl': 'URL изображения'}
 
     @pytest.mark.run(order=1)
     def test_create_advertisement(self, page):
